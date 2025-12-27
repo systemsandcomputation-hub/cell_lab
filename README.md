@@ -101,9 +101,7 @@ important for invariant-based analysis.
 
 ## Usage
 
-From this directory or the repository root:
-
-python3 -m cell_lab.generator.cell_generator \
+python3 cell_generator.py \
   --outdir ./out_samples \
   --target 20
 
@@ -120,10 +118,8 @@ This will generate 20 JSON samples in ./out_samples.
 
 ## Example with mixed regimes:
 
-python3 -m cell_lab.generator.cell_generator \
+python3 cell_generator.py \
   --outdir ./out_samples \
   --target 50 \
   --burst-prob 0.15 \
   --chronic-prob 0.10
-
-
