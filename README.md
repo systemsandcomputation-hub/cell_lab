@@ -98,6 +98,7 @@ Some generated samples may appear stable or nearly flat.
 This is intentional — stable regimes are first-class cases and
 important for invariant-based analysis.
 
+---
 
 ## Usage
 
@@ -106,6 +107,8 @@ python3 cell_generator.py \
   --target 20
 
 This will generate 20 JSON samples in ./out_samples.
+
+---
 
 ## Common Options
 
@@ -116,6 +119,8 @@ This will generate 20 JSON samples in ./out_samples.
 --chronic-prob <float> Probability of chronic pathology
 --sleep <seconds>      Pause between samples
 
+---
+
 ## Example with mixed regimes:
 
 python3 cell_generator.py \
@@ -123,3 +128,13 @@ python3 cell_generator.py \
   --target 50 \
   --burst-prob 0.15 \
   --chronic-prob 0.10
+
+---
+
+## Citation
+If you use this generator in your research, please cite:
+[Benjamin Freeman / Systems & Computation], Cell Lab Synthetic Generator (2025)
+GitHub: [https://github.com/systemsandcomputation-hub/cell_lab]
+
+
+
