@@ -60,6 +60,7 @@ and are intentionally excluded from this repository.
 
 Each generated file (e.g. `sample_000001.json`) contains:
 
+'''json
 {
   "sample_id": 1,
   "created_utc": "...",
@@ -72,7 +73,7 @@ Each generated file (e.g. `sample_000001.json`) contains:
   },
   "series": [ <float>, <float>, ... ]
 }
-
+'''json
 
 params describe the generative regime.
 
