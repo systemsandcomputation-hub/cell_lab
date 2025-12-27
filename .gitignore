@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Envs
+.venv/
+venv/
+.env
+
+# Data / artifacts (never commit)
+data/
+baseline/
+results/
+runs/
+versions/
+test+results/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
