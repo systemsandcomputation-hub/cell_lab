@@ -1,3 +1,7 @@
+## HP35 Phase-1 (Invariant Engine Domain #1)
+
+---
+
 # Cell Lab — Synthetic Cell Generator
 
 This directory contains a **synthetic time-series generator** used as a
